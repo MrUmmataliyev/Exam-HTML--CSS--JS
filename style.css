@@ -580,6 +580,46 @@ height: 54px;
     display: flex;
     
 }
+.sixth_info{
+    width: 1267.22px;
+    height: 1429px;
+    margin-top: 160.48px;
+    margin-left: 120px;
+    font-family: "League Spartan", sans-serif;
+    border: 2px solid salmon;
+    color: white;
+     
+}
+.our{
+    font-family: League Spartan;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #159BE8;
+
+}
+.choose{
+  
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    text-align: center;
+    width: 645px;
+    margin-left: 307px;
+    margin-top: 27px;
+
+
+}
+.choose_con{
+ 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 699px;
+    margin-left: 280px;
+}
 .slider.round {
     border-radius: 34px;
 }
@@ -590,8 +630,8 @@ height: 54px;
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 50px;
+  height: 24px;
 }
 
 .switch input { 
@@ -607,24 +647,24 @@ height: 54px;
   left: 0;
   right: 0;
   bottom: 0;
-  background: none;
-  border: 1px solid #159BE8;
+  background-color: #212250;
+  border: 0.2px solid #004369;
 
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .7s;
+  transition: .7s;
 }
 
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 2px;
+  height: 20px;
+  width: 20px;
+  
+  
   background-color: white;
-  border: 1.5px solid #159BE8;
-  -webkit-transition: .4s;
-  transition: .4s;
+  border: 0.2px solid #159BE8;
+  -webkit-transition: .7s;
+  transition: .7s;
 }
 
 input:checked + .slider {
@@ -636,13 +676,141 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  -webkit-transform: translateX(27px);
+  -ms-transform: translateX(27px);
+  transform: translateX(27px);
 }
 .cbox{
-    width: 61px;
-    height: 34px;
-    margin-left: 880px;
+    width: 50px;
+    height: 24px;
+    margin-left: 105px;
+    margin-top: 5px;
     
+}
+.bill{
+    width: 275px;
+    height: 36px;
+    top: 348px;
+    left: 496.11px;
+    
+    color: white;
+    margin-top: 50px;
+    margin-left: 490px;
+
+}
+.monthly{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    position: absolute;
+    margin-top: 7px;
+    
+
+}
+.annual{
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: -28px;
+}
+.save{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #159BE8;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: -10px;
+    
+
+}
+
+.trafics{
+    width: 1267.22px;
+    height: 439px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+
+.tra{
+    width: 389px;
+    height: 439px;
+    background-color: #0C0D2E;
+    text-align: center;
+}
+.Esse{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-top: 60px;
+    
+}
+.mo12{
+   
+  
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    margin-top: 42px;
+    
+    
+    
+
+}
+.mo12_con{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    width: 320px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.prem__con{
+    width: 269px;
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+.tbtn{
+    width: 200px;
+    height: 48px;
+    font-family: "League Spartan", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: white;
+    background: none;
+    border-radius: 100px;
+    border: 2px solid white;
+    margin-left: 10px;
+
+}
+.trail{
+    margin-top: 31px;
+
+}
+.premb{
+    margin-top: 58px;
+
+
+}
+.prem{
+    border-top: 4px solid #7C44E2;
+}
+.pro{
+    border-top: 4px solid #F95B74;
+}
+.es{
+    border-top: 4px solid #159BE8;
 }
