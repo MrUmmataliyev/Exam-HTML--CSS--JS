@@ -491,16 +491,14 @@ height: 54px;
     background-color: rgba(1, 2, 37, 1);
     position: relative;
     display: flex;
-    border: 2px solid salmon;
 
 }
 .fifth_info{
     width: 1267.22px;
     height: 766.25px;
     margin-top: 160.23px;
-    margin-left: 86.39px;
+    margin-left: 125px;
     font-family: "League Spartan", sans-serif;
-    border: 2px solid salmon;
 }
 .best{
     font-size: 18px;
@@ -517,4 +515,60 @@ height: 54px;
     color: white;
     width: 623px;
     margin-left: 323px;
+    margin-top: 25px;
+}
+.fifth_contents{
+    width: 1267.22px;
+    height: 370px;
+    margin-top: 106.25px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.contetnt_comment{
+    width: 294.3px;
+    height: 370px;
+
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    text-align: left;
+   
+
+}
+.comment{
+    width: 288px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 25px;
+}
+.companies{
+    margin-top: 30px;
+}
+.accaunt{
+  
+    width: 294.3px;
+    height: 53px;
+
+    margin-top: 20px;
+}
+.user_name{
+   
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: -30px;
+
+}
+.user_status{
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin-left: 60px;
 }
