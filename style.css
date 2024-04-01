@@ -4,7 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     font-family: "League Spartan", sans-serif;
-
+    text-decoration: none;
 }
 
 
@@ -47,10 +47,13 @@ height: 54px;
  right: 47px;
  top: 15px;
  font-family:"League Spartan", sans-serif;
-
+ text-align: center;
  color: white;
  width: 164px;
  height: 48px;
+}
+.btn p{
+    margin-top: 15px;
 }
 .navbar__link{
     display: flex;
@@ -466,6 +469,7 @@ height: 54px;
     border-radius: 100px;
     background-color:#159BE8;
     border: 2px solid #159BE8;
+    transition: all 0.2s;
 
 }
 .btn_get:hover{
@@ -482,6 +486,8 @@ height: 54px;
     background:none;
     border: 2px solid #159BE8;
     cursor: pointer;
+    transition: all 0.2s;
+
 
 }
 .circles{
@@ -797,6 +803,8 @@ input:checked + .slider:before {
     border-radius: 100px;
     border: 2px solid white;
     margin-left: 10px;
+    transition: all 0.2s;
+
 
 }
 .tbtn:hover{
@@ -812,6 +820,7 @@ input:checked + .slider:before {
     border: 2px solid white;
     margin-left: 10px;
     cursor: pointer;
+    transition: all 0.2s;
 
 }
 .trail{
@@ -899,6 +908,8 @@ input:checked + .slider:before {
     color: white;
     left: 435px;
     bottom: 115px;
+    transition: all 0.2s;
+
 
 }
 .btnblue:hover{
@@ -919,6 +930,8 @@ input:checked + .slider:before {
     cursor: pointer;
     left: 435px;
     bottom: 115px;
+    transition: all 0.2s;
+
 
 }
 .btnwhite{
@@ -935,6 +948,8 @@ input:checked + .slider:before {
     color: white;
     left: 638px;
     bottom: 115px;
+    transition: all 0.2s;
+
 
 
 }
@@ -953,6 +968,8 @@ input:checked + .slider:before {
     left: 638px;
     bottom: 115px;
     cursor: pointer;
+    transition: all 0.2s;
+
 
 
 }
@@ -1017,6 +1034,7 @@ input:checked + .slider:before {
     border: 2px;
     font-size: 20px;
     margin-top: 50px;
+    transition: all 0.2s;
 
 
 
@@ -1032,6 +1050,7 @@ input:checked + .slider:before {
     font-size: 20px;
     margin-top: 50px;
     cursor: pointer;
+    transition: all 0.2s;
 
 
 
